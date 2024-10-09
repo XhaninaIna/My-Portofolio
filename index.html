@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTOFOLIO</title>
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!-- START PROJECT -->
+    <!-- DESKTOP/TABLET HEADER SECTION -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#projectSection">PROJECTS</a></li>
+            <li><a href="#skillSection">SKILLS</a></li>
+            <li><a href="#contactSection">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- MOBILE HEADER SECTION -->
+    <header class="headerMobile">
+      <nav class="navbarMobile">
+        <div class="logo">
+          <img src="images/logo.jpg" alt="logo" />
+        </div>
+        <div class="menu" id="menu_icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <div class="MobileLinks" id="mobileNav">
+        <div class="close-btn" id="close_btn">
+          <i class="fa-solid fa-times"></i>
+        </div>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#aboutSection">ABOUT</a></li>
+          <li><a href="#projectSection">PROJECTS</a></li>
+          <li><a href="#skillSection">SKILLS</a></li>
+          <li><a href="#contactSection">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero_text">
+        <p>I am Xhanina Çela</p>
+        <a href="#" class="mywork">View My Work</a>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="aboutSection">
+      <p>About Me</p>
+      <div class="aboutContainer">
+        <div class="foto">
+          <img src="images/inafoto.jpeg" alt="foto" />
+        </div>
+        <div class="experience">
+          <p>
+            My name is Xhanina Çela, and I hold a Bachelor's Degree in Business
+            Informatics. I have completed specialized training in React JS at
+            icubINFO Academy, where I gained a solid foundation in front-end
+            development.
+          </p>
+          <p>
+            I have worked on various web development projects, including a MERN
+            Real Estate Application, a Travel List Application, and a Shopping
+            Cart Application. These experiences allowed me to hone my skills in
+            React, JavaScript, and full-stack development using the MERN stack.
+            In my free time, I enjoy playing volleyball and listening to music,
+            which help me maintain a balanced and active lifestyle.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projectSection">
+      <p>PROJECTS</p>
+      <!-- FILTER BUTTONS -->
+      <div class="filter_buttons">
+        <button class="filter_btn" data-filter="all">All</button>
+        <button class="filter_btn" data-filter="web-development">
+          Web Development
+        </button>
+        <button class="filter_btn" data-filter="design">Web Design</button>
+      </div>
+      <div class="myprojects">
+        <!-- 1 -->
+        <div class="box" data-category="web-development">
+          <img src="images/shoppingcart_img.jpg" alt="project photo" />
+          <p class="title">Shopping Cart App</p>
+          <p>
+            Users can browse through a variety of products, add their favorites
+            to the cart, and adjust quantities as needed. The app provides a
+            clear view of the total price in real-time and allows users to
+            securely complete their purchase with just a few clicks
+          </p>
+          <a href="#">View Demo</a>
+        </div>
+        <!-- 2 -->
+        <div class="box" data-category="design">
+          <img src="images/real_estate.jpg" alt="project photo" />
+          <p class="title">Real Estate App</p>
+          <p>
+            Browse a wide selection of products, add items to your cart, and
+            easily adjust quantities with a few taps. The app provides a smooth
+            and fast checkout process, complete with secure payment options.
+          </p>
+          <a href="#" class="demo">View Demo</a>
+        </div>
+        <!-- 3 -->
+        <div class="box" data-category="web-development">
+          <img src="images/popcorn.png" alt="project photo" />
+          <p class="title">UsePopCorn App</p>
+          <p>
+            Popcorn Movie App is your go-to platform for discovering and
+            enjoying movies. Browse through a vast collection of films, read
+            detailed descriptions, and watch trailers to find your next favorite
+            movie.
+          </p>
+          <a href="#">View Demo</a>
+        </div>
+        <!-- 4 -->
+        <div class="box" data-category="design">
+          <img src="images/travel_list.jpg" alt="project photo" />
+          <p class="title">Travel Bucket App</p>
+          <p>
+            The Travel List App helps you plan and organize your trips with
+            ease. Create detailed packing lists, set reminders, and track your
+            to-dos to ensure you’re fully prepared for your next adventure. The
+            app allows you to customize your lists based on your destination,
+            activities, and personal preferences. With a simple and intuitive
+            design
+          </p>
+          <a href="#">View Demo</a>
+        </div>
+        <!-- 5 -->
+        <div class="box" data-category="design">
+          <img src="images/restaurant_app.png" alt="project photo" />
+          <p class="title">Burger App</p>
+          <p>
+            The Burger App is your ultimate guide to creating the perfect
+            burger. Whether you're craving a classic or something more
+            adventurous, you can customize your burger just the way you like it.
+            Choose from a variety of ingredients, including different types of
+            buns, patties.
+          </p>
+          <a href="#">View Demo</a>
+        </div>
+        <!-- 6 -->
+        <div class="box" data-category="web-development">
+          <img src="images/bakery.jpeg" alt="project photo" />
+          <p class="title">Bakery App</p>
+          <p>
+            "The Bakery App brings the joy of freshly baked goods right to your
+            fingertips. Browse through a wide variety of delicious pastries,
+            cakes, breads, and more, all crafted by skilled bakers. Whether
+            you're looking for a sweet treat or a special occasion cake, the app
+            lets you easily place an order, customize your selections
+          </p>
+          <a href="#">View Demo</a>
+        </div>
+      </div>
+      <!-- MODAL SECTION -->
+      <div class="modal" id="projectModal" style="display: none">
+        <div class="modal_content">
+          <i class="fa-solid fa-x" id="close"></i>
+          <h2 class="modal_title"></h2>
+          <img class="modal_image" src="" alt="project image" />
+          <p class="modal-description"></p>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skillSection">
+      <p>My Skills</p>
+      <div class="skillContainer">
+        <!-- 1 -->
+        <div class="SkillBox">
+          <div class="skillLogo">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <p>HTML</p>
+          <p>Building structured, accessible web pages with semantic markup.</p>
+          <div class="percentage_Container">
+            <div class="percent html">70%</div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="SkillBox">
+          <div class="skillLogo">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <p>CSS</p>
+          <p>
+            Styling websites with modern layouts, animations, and responsive
+            designs.
+          </p>
+          <div class="percentage_Container">
+            <div class="percent css">40%</div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="SkillBox">
+          <div class="skillLogo">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <p>JAVASCRIPT</p>
+          <p>
+            Creating dynamic, interactive user experiences with ES6+ features.
+          </p>
+          <div class="percentage_Container">
+            <div class="percent js">50%</div>
+          </div>
+        </div>
+        <!-- 4 -->
+      </div>
+    </section>
+    <!--  MY EVENTS SECTION-->
+    <section class="events" id="eventsSection">
+      <p>My Events</p>
+      <div class="calendar" id="calendar"></div>
+      <!-- EVENT FORM-->
+      <div class="add-event-form">
+        <h3>Add a New Event*:</h3>
+        <form id="eventForm">
+          <label for="eventTitle">Event Title*:</label>
+          <input type="text" id="eventTitle" placeholder="Event Title" />
+          <label for="eventDesc">Event Description*:</label>
+          <input type="text" id="eventDesc" placeholder="Event Description" />
+          <label for="eventDate">Event Date*:</label>
+          <input type="date" id="eventDate" />
+          <button type="submit">Add Event</button>
+        </form>
+      </div>
+      <div class="event-search">
+        <h3>Search an event*:</h3>
+        <input type="text" id="searchInput" placeholder="Search an event..." />
+      </div>
+      <div class="event-list">
+        <h3>Event List*:</h3>
+        <ul id="eventList"></ul>
+      </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contactSection">
+      <p>Contact Me</p>
+      <form class="contactForm" id="contactForm">
+        <div class="formGroup">
+          <label for="name">Name*:</label>
+          <input type="text" id="name" placeholder="Name" />
+        </div>
+        <div class="formGroup">
+          <label for="email">Email*:</label>
+          <input type="email" id="email" placeholder="Email" />
+        </div>
+        <div class="formGroup">
+          <label for="subject">Subject*:</label>
+          <input type="text" id="subject" placeholder="Subject" />
+        </div>
+        <div class="formGroup">
+          <label for="message">Message*:</label>
+          <textarea
+            id="message"
+            rows="6"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Send a Message</button>
+      </form>
+    </section>
+    <!-- SCROLL TO TOP BUTTON -->
+    <button id="scrollToTopButton" title="Go to Top">Top</button>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="social_icons">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p>
+        &copy; <span id="currentYear"></span> Xhanina Cela. All rights reserved.
+      </p>
+    </footer>
+    <!--END PROJECT -->
+
+    <!-- JAVASCRIPT EXTERNAL -->
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
